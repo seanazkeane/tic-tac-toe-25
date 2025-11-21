@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container-right {
+    display: flex;
+    justify-content: center;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameboard {
+    height: 450px;
+    width: 450px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.gameboard-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 48px;
+}
+
+#start-game {
+    margin-top: 30px;
+}
+
+#restart-game {
+    margin-top: 30px;
+}
+
+.game-message {
+    margin-top: 30px;
+}
